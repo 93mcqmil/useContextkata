@@ -13,7 +13,7 @@ const StudentList = () => {
         {students.map((s) => {
           return (
             <li key={s.id}>
-              Name: {s.name}, Age: {s.age}
+              Name: {s.name}, Age: {s.age}, School: {s.school}, City: {s.city}
             </li>
           );
         })}
